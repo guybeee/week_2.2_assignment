@@ -1,0 +1,95 @@
+/* this is the body background page*/
+body {
+    background-color: #f0f0f0;
+}
+
+/* this is to adjust the main tag with max width text, the margin of text and the padding*/
+main {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* this is to align the text in the headers*/
+header {
+    text-align: center;
+}
+
+/* The values 0 0 10px in the header img indicate the horizontal offset, vertical offset, and blur radius of the shadow */
+header img {
+    border-radius: 10px;
+    box-shadow: 25px 10px 100px rgba(0, 0, 0, .3);
+}
+
+/* this is to change the box in the navigational and the text color, and the padding is the exterior 
+    margin, bordwe, padding, text*/
+nav {
+    background-color: rgb(191, 189, 189);
+    color: #fff;
+    padding: 0 auto;
+    margin-top: 0;
+}
+/*  for h3 in nav tag*/
+nav h3 {
+    margin-bottom: 0;
+    color: black;
+    text-decoration: underline;
+}
+/*in order to get the unorganized list centered we need padding and margin to be set to 0*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* Added to bottom to get the items next to each other instead of above eachother */ 
+    /*display: flex;*/
+    
+}
+/* This spaces the index content apart*/ 
+nav li {
+    margin-bottom: 2px;
+}
+/* this is to change the color of the text and ir removes the underline text*/
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+/* changes the a tag to hoover and get an underline affect to the color of...*/
+nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/*/class -- change font size*/
+.main_title {
+    font-size: 50px;
+}
+
+/*/class to make text bold*/
+.paragraph_bold {
+    font-weight: bold;
+}
+/*/class to make a bold word*/
+.bold_word {
+    font-weight: bolder;
+}
+
+/*/creating a table border*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*/table head and table data are aligned to the left*/
+th, td {
+    text-align: left
+}
+
+/*/ hoovering over the table row will change the color to gray*/
+tr:hover{
+    background-color: gray;
+}
+
+/* id for underlining text*/
+#underline {
+    text-decoration: underline;
+}

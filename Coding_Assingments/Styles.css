@@ -1,0 +1,34 @@
+/* Utilize this in order to make comments in CSS*/
+
+
+.hov {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+
+
+}
+.hov:hover {
+    background-color: red;
+
+}
+table {
+    border-collapse: collapse;
+    width: 28%;
+    text-align: left;
+}
+/* padding shows the amount of space between each row */
+/* text align will move text accordingly */
+th, td {
+    padding: 3px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even){
+    background-color: rgb(185, 185, 185);
+}
+
+tr:hover{
+    background-color: gray;
+}
+
